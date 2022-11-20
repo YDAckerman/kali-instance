@@ -6,4 +6,6 @@ Terraform a EC2 instance running Kali Linux.
 
 Reproducibility.
 
+# Notes
 
+- change the server name in the setup.sh file before ssh
