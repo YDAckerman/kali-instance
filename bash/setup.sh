@@ -1,5 +1,5 @@
 
-keypair_location=~/.ssh/kali_instance.pem
+keypair_location=$(cat ./pem_location.txt)
 
 htb_kali_dns=$(aws ec2 describe-instances \
                   --profile default \
