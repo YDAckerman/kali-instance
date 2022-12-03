@@ -21,4 +21,4 @@ scp -i $keypair_location $ovpn_location "kali@${htb_kali_dns}":~/.
 
 ssh -i $keypair_location "kali@${htb_kali_dns}"
 
-openvpn ydackerman.ovpn
+# openvpn $ovpn_location
